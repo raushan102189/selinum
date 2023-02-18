@@ -32,7 +32,7 @@ for c in rog:
         break
     else:
         # print("Error logging in",c)
-        if count/6==0 :
+        if count/5==0 :
             browser.quit()
             browser = webdriver.Chrome("../chromedriver.exe ")
             browser.get("http://192.168.1.198")
